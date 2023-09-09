@@ -1,0 +1,15 @@
+# pyproject.toml documentation
+#    See https://peps.python.org/pep-0621/
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magic_scryfall"
+version = "0.1.0"
+dependencies = [
+    "requests",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

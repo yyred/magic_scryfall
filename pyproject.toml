@@ -11,5 +11,8 @@ dependencies = [
     "requests",
 ]
 
+[project.scripts]
+magic-scryfall = "magic_scryfall.main:main()"
+
 [tool.setuptools.packages.find]
 where = ["src"]
